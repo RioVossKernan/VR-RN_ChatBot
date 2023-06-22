@@ -20,7 +20,7 @@ public class TextToSpeech : MonoBehaviour
     // Start is called before the first frame update
     public void Start()
     {
-        credentials = new BasicAWSCredentials("AKIAWLBKCKCADNOQXJZV", "4BC4tFw2ilpCEXsNVZ8BehmD8ETKt3GcOFea4fuF");
+        credentials = new BasicAWSCredentials("INSERT KEY HERE", "INSERT KEY HERE");
         client = new AmazonPollyClient(credentials, RegionEndpoint.USEast1);
         speakText(speakOnStart);
     }
