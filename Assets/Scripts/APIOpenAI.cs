@@ -20,7 +20,7 @@ namespace OpenAI
         private bool isRecording;
         private int duration = 10;
 
-        private OpenAIApi openai = new OpenAIApi("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");
+        private OpenAIApi openai = new OpenAIApi("PUT YOUR KEY HERE");
 
         private List<ChatMessage> chats = new List<ChatMessage>();
         private List<ChatMessage> assessments = new List<ChatMessage>();
